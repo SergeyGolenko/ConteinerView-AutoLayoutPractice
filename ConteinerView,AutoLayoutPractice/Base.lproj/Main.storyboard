@@ -24,7 +24,7 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12345" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOW-wM-PLU">
                                                 <rect key="frame" x="10" y="10" width="354" height="101.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </label>
                                         </subviews>
@@ -42,22 +42,34 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JXy-a3-Yei">
                                                 <rect key="frame" x="0.0" y="0.0" width="86" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="AC">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dL-Mw-2EQ">
                                                 <rect key="frame" x="96" y="0.0" width="86" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="+/-">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trO-FE-2sr">
                                                 <rect key="frame" x="192" y="0.0" width="86" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="%">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUS-SM-Z59">
                                                 <rect key="frame" x="288" y="0.0" width="86" height="121"/>
-                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="/">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -67,22 +79,34 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qsc-Nf-hN6">
                                                 <rect key="frame" x="0.0" y="0.0" width="86" height="121.5"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="7">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3p-oN-Uen">
                                                 <rect key="frame" x="96" y="0.0" width="86" height="121.5"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="8">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zCO-ii-BTY">
                                                 <rect key="frame" x="192" y="0.0" width="86" height="121.5"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="9">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zio-UQ-SWL">
                                                 <rect key="frame" x="288" y="0.0" width="86" height="121.5"/>
-                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="*">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -92,22 +116,34 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mV0-bb-s6l">
                                                 <rect key="frame" x="0.0" y="0.0" width="86" height="121.5"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="4">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PDt-53-tl4">
                                                 <rect key="frame" x="96" y="0.0" width="86" height="121.5"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="5">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MVo-ii-uFJ">
                                                 <rect key="frame" x="192" y="0.0" width="86" height="121.5"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="6">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="upA-0D-sBr">
                                                 <rect key="frame" x="288" y="0.0" width="86" height="121.5"/>
-                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="-">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -117,22 +153,34 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1C-iz-qnF">
                                                 <rect key="frame" x="0.0" y="0.0" width="86" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9oP-0Q-ve1">
                                                 <rect key="frame" x="96" y="0.0" width="86" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="2">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17f-P0-m05">
                                                 <rect key="frame" x="192" y="0.0" width="86" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="3">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gb4-4g-c4s">
                                                 <rect key="frame" x="288" y="0.0" width="86" height="121"/>
-                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="+">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -140,24 +188,28 @@
                                         <rect key="frame" x="0.0" y="656.5" width="374" height="121.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2S-EH-15P">
-                                                <rect key="frame" x="0.0" y="0.0" width="86" height="121.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="121.5"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ckf-JV-pXG">
-                                                <rect key="frame" x="96" y="0.0" width="86" height="121.5"/>
-                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6tW-vg-9jo">
-                                                <rect key="frame" x="192" y="0.0" width="86" height="121.5"/>
+                                                <rect key="frame" x="128" y="0.0" width="118" height="121.5"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title=",">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rr3-q8-1IH">
-                                                <rect key="frame" x="288" y="0.0" width="86" height="121.5"/>
-                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="256" y="0.0" width="118" height="121.5"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="=">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -185,6 +237,9 @@
         </systemColor>
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
