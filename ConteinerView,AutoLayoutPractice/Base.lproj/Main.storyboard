@@ -184,11 +184,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hBp-Bu-uHK">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hBp-Bu-uHK">
                                         <rect key="frame" x="0.0" y="656.5" width="374" height="121.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2S-EH-15P">
-                                                <rect key="frame" x="0.0" y="0.0" width="118" height="121.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="181.5" height="121.5"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="0">
@@ -196,7 +196,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6tW-vg-9jo">
-                                                <rect key="frame" x="128" y="0.0" width="118" height="121.5"/>
+                                                <rect key="frame" x="191.5" y="0.0" width="86" height="121.5"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title=",">
@@ -204,7 +204,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rr3-q8-1IH">
-                                                <rect key="frame" x="256" y="0.0" width="118" height="121.5"/>
+                                                <rect key="frame" x="287.5" y="0.0" width="86.5" height="121.5"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="=">
@@ -212,6 +212,10 @@
                                                 </state>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="6tW-vg-9jo" firstAttribute="width" secondItem="L2S-EH-15P" secondAttribute="width" multiplier="1 : 2.1" id="PWY-FA-auW"/>
+                                            <constraint firstItem="rr3-q8-1IH" firstAttribute="width" secondItem="6tW-vg-9jo" secondAttribute="width" id="foz-Hl-Edv"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
                             </stackView>
